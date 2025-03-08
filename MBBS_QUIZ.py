@@ -1,6 +1,11 @@
 import streamlit as st
 
 def quiz_app():
+    # Display "Code By Nayif" at the top
+    st.markdown("### Code By Nayif")
+    st.write("---")  # Add a horizontal line for separation
+
+    # App title and description
     st.title("🩺 MBBS Quiz App")
     st.write("Test your medical knowledge with this interactive quiz! ✅")
     
